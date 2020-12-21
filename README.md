@@ -10,14 +10,14 @@
         * JavaScript
 
 版本配置：
-    *Django2.x
-    *python3.7
+    Django2.x
+    python3.7
 
 功能介绍：
-[x]登录注册
-[x]文章管理
-[x]个人信息管理
-[x]文章查看
+- [x]登录注册
+- [x]文章管理
+- [x]个人信息管理
+- [x]文章查看
 
 运行代码：
 安装相同配置的django和python
@@ -31,5 +31,3 @@ python manage.py migrate
 python manage.py runserver
 ```
 运行成功后会显示路由：127.0.0.1:8000
-
-
