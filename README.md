@@ -1,7 +1,35 @@
-# Blog
-简易的小网站
-使用python的django框架，sqlite3和redis数据库，
-使用Markdow编辑器作为富文本输入，
-本项目使用的MVC模式，
-实现了博客的大部分功能
+# Django博客练习
+
+基于django实现的博客
+* 编程语言  
+    * 脚本语言  
+        * Python 
+    * 前端语言
+        * html
+        * css
+        * JavaScript
+
+版本配置：
+    *Django2.x
+    *python3.7
+
+功能介绍：
+[x]登录注册
+[x]文章管理
+[x]个人信息管理
+[x]文章查看
+
+运行代码：
+安装相同配置的django和python
+迁移数据库
+```python
+python manage.py makemigrations
+python manage.py migrate
+```
+运行项目
+```python
+python manage.py runserver
+```
+运行成功后会显示路由：127.0.0.1:8000
+
 
